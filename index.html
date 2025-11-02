@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quizer — Quiz Loader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="kahoot-stage">
+    <header class="topbar">
+      <div class="logo">AWS-Quizer</div>
+      <div class="top-controls">
+        <div class="progress">Q: <span id="stat-progress">0</span>/<span id="stat-total">0</span></div>
+      </div>
+      <div class="top-right">
+        <button id="finish-btn" class="btn small">Finish</button>
+        <div id="top-result" class="top-result hidden">Score: <strong id="top-score">0</strong></div>
+      </div>
+    </header>
+
+    <!-- Kahoot-like centered card -->
+    <section id="quiz-screen" class="q-card">
+      <div id="question-area" class="question-area">
+        <h2 id="question-text" class="question-text">Loading question...</h2>
+      </div>
+
+      <div id="choices" class="choices kahoot-choices"></div>
+
+      <div id="confetti-container" aria-hidden="true"></div>
+    </section>
+
+    <!-- Correct answer display -->
+    <div id="correct-answer-display" class="correct-answer-display hidden">
+      <span class="correct-label">Correct Answer:</span>
+      <span id="correct-answer-text" class="correct-answer-text"></span>
+    </div>
+
+    <!-- Popup feedback modal -->
+    <div id="feedback-modal" class="feedback-modal hidden">
+      <div class="feedback-content">
+        <div id="feedback-text" class="feedback-text"></div>
+      </div>
+    </div>
+
+    <div class="nav-controls">
+      <button id="prev-btn" class="round-btn">◀ Previous</button>
+      <button id="next-btn" class="round-btn">Next ▶</button>
+    </div>
+
+    <section id="result-screen" class="q-card hidden result-big">
+      <div id="result-main" class="result-main">
+        <div class="result-celebration">
+          <h1 class="result-title">🎉 Quiz Complete! 🎉</h1>
+          <div class="result-score-big">
+            <span id="final-score">0</span>
+          </div>
+          <p class="result-subtitle">Amazing work!</p>
+        </div>
+        <div class="controls">
+          <button id="play-again" class="btn">Play Again</button>
+          <button id="reattempt" class="btn primary">Reattempt</button>
+          <button id="view-attempts" class="btn">View Attempts</button>
+        </div>
+      </div>
+      <div id="attempts-view" class="attempts-view hidden">
+        <button id="back-to-result" class="btn back-btn">← Back to Results</button>
+        <h2 class="attempts-title">Your Attempts</h2>
+        <div id="attempts-list" class="attempts"></div>
+      </div>
+    </section>
+
+  <footer class="foot small hidden">Use the arrows or click a colored answer.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
