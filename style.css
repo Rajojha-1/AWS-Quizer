@@ -138,4 +138,95 @@ body{overflow:hidden}
 @keyframes celebratePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 @keyframes scoreGlow{0%,100%{filter:brightness(1)}50%{filter:brightness(1.3)}}
 
+/* Comprehensive mobile optimizations */
+@media(max-width:768px){
+	/* Allow scrolling on mobile if needed */
+	body{overflow:auto}
+	.kahoot-stage{min-height:100vh;height:auto}
+	
+	/* Topbar adjustments */
+	.topbar{padding:10px 16px;flex-wrap:wrap;gap:8px}
+	.logo{font-size:18px}
+	.progress, .top-result{font-size:13px;padding:6px 10px}
+	.btn.small{padding:8px 12px;font-size:13px}
+	
+	/* Card adjustments */
+	.q-card{width:95%;padding:18px 14px;min-height:auto;max-height:none;margin:10px auto}
+	.question-area{padding:6px 4px 12px}
+	
+	/* Navigation buttons */
+	.nav-controls{gap:12px;margin:16px auto 12px;width:95%}
+	.round-btn{padding:12px 18px;font-size:15px;min-width:85px;-webkit-tap-highlight-color:transparent}
+	
+	/* Correct answer display */
+	.correct-answer-display{width:95%;padding:12px 14px;margin:10px auto 8px;font-size:14px}
+	.correct-label{font-size:12px}
+	.correct-answer-text{font-size:14px}
+	
+	/* Popup feedback */
+	.feedback-text{font-size:clamp(32px,10vw,56px);padding:24px 16px}
+	
+	/* Result screen */
+	.result-big{min-height:auto;padding:32px 16px}
+	.result-title{margin-bottom:16px}
+	.result-score-big{margin:16px 0}
+	.controls{gap:10px;margin-top:20px}
+	.btn{padding:11px 16px;font-size:14px;-webkit-tap-highlight-color:transparent}
+	
+	/* Attempts view */
+	.attempts-view{padding:16px 0}
+	.attempts-title{margin-bottom:16px}
+	.back-btn{padding:10px 18px;font-size:15px;-webkit-tap-highlight-color:transparent}
+	.attempts{max-height:350px;padding:12px}
+	.attempts::-webkit-scrollbar{width:6px}
+	.attempt-item{padding:10px 12px;font-size:14px;flex-direction:column;align-items:flex-start;gap:6px}
+	.attempt-score{font-size:14px}
+	.attempt-date{font-size:12px}
+}
 
+/* Extra small phones */
+@media(max-width:480px){
+	.topbar{padding:8px 12px}
+	.logo{font-size:16px}
+	.progress, .top-result{font-size:12px;padding:5px 8px}
+	
+	.q-card{width:96%;padding:16px 12px}
+	.question-text{font-size:clamp(15px,5.5vw,20px)}
+	
+	.choice-btn{padding:12px 14px;gap:10px;font-size:15px;min-height:58px}
+	.choice-letter{width:36px;height:36px;font-size:16px}
+	.choice-text{font-size:clamp(12px,4vw,14px);line-height:1.35}
+	
+	.nav-controls{gap:10px;width:96%}
+	.round-btn{padding:11px 16px;font-size:14px;min-width:75px}
+	
+	.correct-answer-display{width:96%;padding:10px 12px;font-size:13px}
+	.correct-answer-text{font-size:13px}
+	
+	.feedback-text{font-size:clamp(28px,11vw,48px);padding:20px 12px}
+	
+	.result-score-big{font-size:clamp(56px,20vw,100px)}
+	.btn{padding:10px 14px;font-size:13px}
+	
+	.attempts{max-height:300px;padding:10px}
+}
+
+/* Landscape mode on mobile */
+@media(max-width:900px) and (max-height:500px) and (orientation:landscape){
+	.kahoot-stage{height:auto;min-height:100vh}
+	body{overflow:auto}
+	.q-card{max-height:none;min-height:auto;margin:15px auto}
+	.question-text{font-size:16px;margin-bottom:8px}
+	.kahoot-choices{gap:8px}
+	.choice-btn{padding:10px 12px;min-height:55px}
+	.nav-controls{margin:12px auto}
+	.result-big{padding:20px 16px}
+}
+
+/* Touch device optimizations */
+@media(hover: none) and (pointer: coarse){
+	.choice-btn, .round-btn, .btn, .back-btn{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+	.choice-btn:active{transform:scale(0.97);transition:transform 0.1s}
+	.round-btn:active:not(:disabled){transform:scale(0.95);transition:transform 0.1s}
+	.btn:active{transform:scale(0.95);transition:transform 0.1s}
+}
