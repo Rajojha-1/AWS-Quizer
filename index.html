@@ -17,6 +17,14 @@
         <div class="progress">Q: <span id="stat-progress">0</span>/<span id="stat-total">0</span></div>
       </div>
       <div class="top-right">
+        <div class="top-test">
+          <span id="test-timer" class="timer hidden">90:00:00</span>
+          <button id="start-test" class="btn small">Start Test</button>
+        </div>
+        <div class="jump-control">
+          <input id="jump-input" class="jump-input" type="number" min="1" placeholder="Jump #" aria-label="Jump to question number" />
+          <button id="jump-btn" class="btn small">Go</button>
+        </div>
         <button id="finish-btn" class="btn small">Finish</button>
         <div id="top-result" class="top-result hidden">Score: <strong id="top-score">0</strong></div>
       </div>

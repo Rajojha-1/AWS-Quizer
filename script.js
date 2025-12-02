@@ -25,6 +25,10 @@ const reattemptBtn = document.getElementById('reattempt');
 const viewAttemptsBtn = document.getElementById('view-attempts');
 const attemptsListEl = document.getElementById('attempts-list');
 const finishBtn = document.getElementById('finish-btn');
+const startTestBtn = document.getElementById('start-test');
+const testTimerEl = document.getElementById('test-timer');
+const jumpInput = document.getElementById('jump-input');
+const jumpBtn = document.getElementById('jump-btn');
 const topResultEl = document.getElementById('top-result');
 const topScoreEl = document.getElementById('top-score');
 const saveScoreForm = document.getElementById('save-score-form');
@@ -42,6 +46,10 @@ const qFile = document.getElementById('q-file');
 let questions = [];
 let currentIndex = 0;
 let score = 0;
+let originalQuestions = null; // keep a copy when starting a test
+let testMode = false;
+let testTimer = null;
+let testRemaining = 0; // seconds
 // timer removed per UX request
 
 function show(el){ if(el) el.classList.remove('hidden'); }
@@ -54,6 +62,59 @@ function startQuiz(){
 	hide(startScreen); hide(resultScreen); hide(scoresScreen); hide(adminScreen);
 	show(quizScreen);
 	renderQuestion();
+}
+
+// Start official test session: 65 random questions, 90 minutes
+function startTest(){
+	if(questions.length === 0){ alert('No questions loaded. Place a questions.txt file or paste JSON in Admin.'); return; }
+	if(testMode) return;
+	const ok = confirm('Start a timed test: 65 random questions, 90 minutes. Are you ready?');
+	if(!ok) return;
+	// keep a copy of all questions so normal quiz can be restored
+	originalQuestions = JSON.parse(JSON.stringify(questions));
+	// pick a shuffled subset
+	const pool = Array.from(questions);
+	for(let i=pool.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [pool[i],pool[j]] = [pool[j],pool[i]]; }
+	const count = Math.min(65, pool.length);
+	if(pool.length < 65){ alert(`Only ${pool.length} questions available — test will use all available questions.`); }
+	questions = pool.slice(0, count);
+	testMode = true;
+	testRemaining = 90 * 60; // 90 minutes in seconds
+	if(testTimerEl) { testTimerEl.classList.remove('hidden'); }
+	startTestTimer();
+	startQuiz();
+}
+
+function startTestTimer(){
+	if(testTimer) clearInterval(testTimer);
+	updateTestTimerDisplay();
+	testTimer = setInterval(()=>{
+		testRemaining -= 1;
+		if(testRemaining <= 0){
+			clearInterval(testTimer); testTimer = null; testRemaining = 0;
+			alert('Time is up — the test will be submitted automatically.');
+			finishQuiz();
+			endTestMode();
+			return;
+		}
+		updateTestTimerDisplay();
+	}, 1000);
+}
+
+function updateTestTimerDisplay(){
+	if(!testTimerEl) return;
+	const hrs = Math.floor(testRemaining/3600);
+	const mins = Math.floor((testRemaining%3600)/60);
+	const secs = testRemaining%60;
+	testTimerEl.textContent = `${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}:${String(secs).padStart(2,'0')}`;
+}
+
+function endTestMode(){
+	testMode = false;
+	if(testTimer) { clearInterval(testTimer); testTimer = null; }
+	if(testTimerEl) testTimerEl.classList.add('hidden');
+	// restore original questions if available
+	if(originalQuestions){ questions = originalQuestions; originalQuestions = null; }
 }
 
 // timer functions removed
@@ -100,6 +161,14 @@ function renderQuestion(){
 	// enable/disable navigation buttons
 	if(prevBtn) prevBtn.disabled = (currentIndex === 0);
 	if(nextBtn) nextBtn.disabled = (currentIndex >= questions.length-1);
+
+	// update jump control (if present)
+	if(jumpInput){
+		jumpInput.max = questions.length || 1;
+		jumpInput.value = Math.min(Math.max(1, currentIndex+1), questions.length || 1);
+		jumpInput.disabled = (questions.length === 0);
+	}
+	if(jumpBtn) jumpBtn.disabled = (questions.length === 0);
 	updateCounters();
 }
 
@@ -196,6 +265,18 @@ function showFeedbackPopup(message, isCorrect){
 nextBtn && nextBtn.addEventListener('click', ()=>{ if(currentIndex < questions.length-1){ currentIndex += 1; renderQuestion(); } else { finishQuiz(); } });
 prevBtn && prevBtn.addEventListener('click', ()=>{ if(currentIndex > 0){ currentIndex -= 1; renderQuestion(); } });
 
+// Jump-to-question helper (frontend-only)
+function jumpToQuestion(n){
+	if(!questions || questions.length === 0){ alert('No questions loaded.'); return; }
+	const num = parseInt(n, 10);
+	if(isNaN(num) || num < 1 || num > questions.length){ alert(`Enter a number between 1 and ${questions.length}`); return; }
+	currentIndex = num - 1;
+	renderQuestion();
+}
+
+if(jumpBtn) jumpBtn.addEventListener('click', ()=>{ jumpToQuestion(jumpInput ? jumpInput.value : NaN); });
+if(jumpInput) jumpInput.addEventListener('keydown', (e)=>{ if(e.key === 'Enter'){ e.preventDefault(); jumpToQuestion(jumpInput.value); } });
+
 function finishQuiz(){
 	updateCounters();
 	// Hide correct answer display and nav controls
@@ -221,6 +302,8 @@ function finishQuiz(){
 	if(finalScoreEl) finalScoreEl.textContent = correct;
 	const resC = document.getElementById('res-correct'); if(resC) resC.textContent = correct;
 	const resI = document.getElementById('res-incorrect'); if(resI) resI.textContent = incorrect;
+	// if we were in a test, end test mode when showing results
+	if(testMode) endTestMode();
 }
 
 // Compute counts from questions array and update stat DOM
@@ -356,6 +439,9 @@ backToResultBtn && backToResultBtn.addEventListener('click', ()=>{
 	hide(attemptsView); 
 	show(resultMain); 
 });
+
+// wire start test button
+startTestBtn && startTestBtn.addEventListener('click', ()=>{ startTest(); });
 
 
 saveScoreForm && saveScoreForm.addEventListener('submit', e=>{

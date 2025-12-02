@@ -1963,3 +1963,1670 @@ B. Dedicated Instances
 C. Reserved Instances 
 D. On-Demand Instances  
 Answer:  A 
+Question #251 
+Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility 
+model? 
+A. Security awareness and training 
+B. Development of an IAM password policy 
+C. Patching of the guest operating system 
+D. Physical and environmental controls  
+Correct Answer: D  
+Question #252 
+Which of the following is a characteristic of the AWS account root user? 
+A. The root user is the only user that can be configured with multi-factor authentication (MFA). 
+B. The root user is the only user that can access the AWS Management Console. 
+C. The root user is the first sign-in identity that is available when an AWS account is created.  
+D. The root user has a password that cannot be changed. 
+Correct Answer: C  
+Question #253 
+An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS 
+Management Console. 
+Which AWS service should be used to determine what action made this EC2 instance inaccessible? 
+A. Amazon CloudWatch Logs 
+B. AWS Security Hub 
+C. Amazon Inspector 
+D. AWS CloudTraiI  
+Correct Answer: D  
+Question #254 
+A company's application developers need to quickly provision and manage AWS services by using scripts. 
+Which AWS offering should the developers use to meet these requirements? 
+A. AWS CLI  
+B. AWS CodeBuild 
+C. AWS Cloud Adoption Framework (AWS CAF) 
+D. AWS Systems Manager Session Manager 
+Correct Answer: A  
+Question #255 
+A company wants to migrate unstructured data to AWS. The data needs to be securely moved with inflight 
+encryption and end-to-end data validation. 
+Which AWS service will meet these requirements? 
+A. AWS Application Migration Service 
+B. Amazon Elastic File System (Amazon EFS) 
+C. AWS DataSync  
+D. AWS Migration Hub 
+Correct Answer: C  
+Question #256 
+A development team wants to deploy multiple test environments for an application in a fast, repeatable 
+manner. 
+Which AWS service should the team use? 
+A. Amazon EC2 
+B. AWS CloudFormation  
+C. Amazon QuickSight 
+D. Amazon Elastic Container Service (Amazon ECS) 
+Correct Answer: B  
+Question #257 
+A company wants to quickly implement a continuous integration/continuous delivery (CI/CD) pipeline. 
+Which AWS service will meet this requirement? 
+A. AWS Config 
+B. Amazon Cognito 
+C. AWS DataSync 
+D. AWS CodeStar  
+Correct Answer: D  
+Question #258 
+Which AWS Cloud deployment model uses AWS Outposts as part of the application deployment 
+infrastructure? 
+A. On-premises 
+B. Serverless 
+C. Cloud-native 
+D. Hybrid  
+Correct Answer: D  
+Question #259 
+Which of the following is a fully managed graph database service on AWS? 
+A. Amazon Aurora 
+B. Amazon FSx 
+C. Amazon DynamoDB 
+D. Amazon Neptune  
+Correct Answer: D  
+Question #260 
+Which AWS service could an administrator use to provide desktop environments for several employees? 
+A. AWS Organizations 
+B. AWS Fargate 
+C. AWS WAF 
+D. AWS WorkSpaces  
+Correct Answer: D  
+Question #261 
+Which AWS service or feature gives users the ability to capture information about network traffic in a VPC? 
+A. VPC Flow Logs  
+B. Amazon Inspector 
+C. VPC route tables 
+D. AWS CloudTrail 
+Correct Answer: A  
+Question #262 
+Which type of AWS storage is ephemeral and is deleted when an Amazon EC2 instance is stopped or 
+terminated? 
+A. Amazon Elastic Block Store (Amazon EBS) 
+B. Amazon EC2 instance store  
+C. Amazon Elastic File System (Amazon EFS) 
+D. Amazon S3 
+Correct Answer: B  
+Question #263 
+A company wants to provide access to Windows file shares in AWS from its on-premises workloads. The 
+company does not want to provision any additional infrastructure or applications in its data center. 
+Which AWS service will meet these requirements? 
+A. Amazon FSx File Gateway  
+B. AWS DataSync 
+C. Amazon S3 
+D. AWS Snow Family 
+Correct Answer: A  
+Question #264 
+A company wants durable storage for static content and infinitely scalable data storage infrastructure at the 
+lowest cost. 
+Which AWS service should the company choose? 
+A. Amazon Elastic Block Store (Amazon EBS) 
+B. Amazon S3  
+C. AWS Storage Gateway 
+D. Amazon Elastic File System (Amazon EFS) 
+Correct Answer: B  
+Question #265 
+An ecommerce company wants to use Amazon EC2 Auto Scaling to add and remove EC2 instances based on 
+CPU utilization. 
+Which AWS service or feature can initiate an Amazon EC2 Auto Scaling action to achieve this goal? 
+A. Amazon Simple Queue Service (Amazon SQS) 
+B. Amazon Simple Notification Service (Amazon SNS) 
+C. AWS Systems Manager 
+D. Amazon CloudWatch alarm  
+Correct Answer: D  
+Question #266 
+A company wants to transform its workforce by attracting and developing a digitally fluent high-performance 
+workforce. The company wants to attract a diverse and inclusive workforce with appropriate mix of technical 
+and non-technical skills. 
+Which AWS Cloud Adoption Framework (AWS CAF) perspective will meet these requirements? 
+A. Business 
+B. People  
+C. Platform 
+D. Operations 
+Correct Answer: B  
+Question #267 
+A company wants to move its on-premises databases to managed cloud database services by using a 
+simplified migration process. 
+Which AWS service or tool can help the company meet this requirement? 
+A. AWS Storage Gateway 
+B. AWS Application Migration Service 
+C. AWS DataSync 
+D. AWS Database Migration Service (AWS DMS)  
+Correct Answer: D  
+Question #268 
+A company needs a fully managed file server that natively supports Microsoft workloads and file systems. 
+The file server must also support the SMB protocol. 
+Which AWS service should the company use to meet these requirements? 
+A. Amazon Elastic File System (Amazon EFS) 
+B. Amazon FSx for Lustre 
+C. Amazon FSx for Windows File Server  
+D. Amazon Elastic Block Store (Amazon EBS) 
+Correct Answer: C  
+Question #269 
+A company has been storing monthly reports in an Amazon S3 bucket. The company exports the report data 
+into comma-separated values (.csv) files. A developer wants to write a simple query that can read all of these 
+f
+ iles and generate a summary report. 
+Which AWS service or feature should the developer use to meet these requirements with the LEAST amount 
+of operational overhead? 
+A. Amazon S3 Select 
+B. Amazon Athena  
+C. Amazon Redshift 
+D. Amazon EC2 
+Correct Answer: B  
+Question #270 
+Which AWS feature provides a no-cost platform for AWS users to join community groups, ask questions, find 
+answers, and read community-generated articles about best practices? 
+A. AWS Knowledge Center 
+B. AWS re:Post  
+C. AWS IQ 
+D. AWS Enterprise Support 
+Correct Answer: B  
+Question #271 
+A company needs to search for text in documents that are stored in Amazon S3. 
+Which AWS service will meet these requirements? 
+A. Amazon Kendra  
+B. Amazon Rekognition 
+C. Amazon Polly 
+D. Amazon Lex 
+Correct Answer: A  
+Question #272 
+Which AWS services make use of global edge locations? (Choose two.) 
+A. AWS Fargate 
+B. Amazon CloudFront  
+C. AWS Global Accelerator  
+D. AWS Wavelength 
+E. Amazon VPC 
+Correct Answer: BC  
+Question #273 
+A user needs a relational database but does not have the resources to manage the hardware, resiliency, and 
+replication. 
+Which AWS service option meets the user's requirements? 
+A. Run MySQL on Amazon Elastic Container Service (Amazon ECS). 
+B. Run MySQL on Amazon EC2. 
+C. Choose Amazon RDS for MySQL.  
+D. Choose Amazon ElastiCache for Redis. 
+Correct Answer: C  
+Question #274 
+A company needs to deploy applications in the AWS Cloud as quickly as possible. The company also needs to 
+minimize the complexity that is related to the management of AWS resources. 
+Which AWS service should the company use to meet these requirements? 
+A. AWS Config 
+B. AWS Elastic Beanstalk  
+C. Amazon EC2 
+D. Amazon Personalize 
+Correct Answer: B  
+Question #275 
+Which mechanism allows developers to access AWS services from application code? 
+A. AWS Software Development Kit  
+B. AWS Management Console 
+C. AWS CodePipeline 
+D. AWS Config 
+Correct Answer: A  
+Question #276 
+A company is migrating to the AWS Cloud. The company wants to understand and identify potential security 
+misconfigurations or unexpected behaviors. The company wants to prioritize any protective controls it might 
+need. 
+Which AWS Cloud Adoption Framework (AWS CAF) security perspective capability will meet these 
+requirements? 
+A. Identity and access management 
+B. Threat detection  
+C. Platform engineering 
+D. Availability and continuity management 
+Correct Answer: B  
+Question #277 
+A company wants to establish a private network connection between AWS and its corporate network. 
+Which AWS service or feature will meet this requirement? 
+A. Amazon Connect 
+B. Amazon Route 53 
+C. AWS Direct Connect  
+D. VPC peering 
+Correct Answer: C  
+Question #278 
+Which AWS services or features give users the ability to create a network connection between two VPCs? 
+(Choose two.) 
+A. VPC endpoints 
+B. Amazon Route 53 
+C. VPC peering  
+D. AWS Direct Connect 
+E. AWS Transit Gateway  
+Correct Answer: CE  
+Question #279 
+Which AWS service converts text to lifelike voices? 
+A. Amazon Transcribe 
+B. Amazon Rekognition 
+C. Amazon Polly  
+D. Amazon Textract 
+Correct Answer: C  
+Question #280 
+A company wants to use application stacks to run a workload in the AWS Cloud. The company wants to use 
+pre-configured instances. 
+Which AWS service will meet these requirements? 
+A. Amazon Lightsail  
+B. Amazon Athena 
+C. AWS Outposts 
+D. Amazon EC2 
+Correct Answer: A  
+Question #281 
+Which AWS services are supported by Savings Plans? (Choose two.) 
+A. Amazon EC2  
+B. Amazon RDS 
+C. Amazon SageMaker  
+D. Amazon Redshift 
+E. Amazon DynamoDB 
+Correct Answer: AC  
+Question #282 
+Which AWS service or tool can provide rightsizing recommendations for Amazon EC2 resources at no 
+additional cost? 
+A. AWS Well-Architected Tool 
+B. Amazon CloudWatch 
+C. AWS Cost Explorer  
+D. Amazon S3 analytics 
+Correct Answer: C  
+Question #283 
+A company operates a petabyte-scale data warehouse to analyze its data. The company wants a solution that 
+will not require manual hardware and software management. 
+Which AWS service will meet these requirements? 
+A. Amazon DocumentDB (with MongoDB compatibility) 
+B. Amazon Redshift  
+C. Amazon Neptune 
+D. Amazon ElastiCache 
+Correct Answer: B  
+Question #284 
+A library wants to automate the classification of electronic books based on the contents of the books. 
+Which AWS service should the library use to meet this requirement? 
+A. Amazon Redshift 
+B. Amazon CloudSearch 
+C. Amazon Comprehend  
+D. Amazon Aurora 
+Correct Answer: C  
+Question #285 
+Which task is a responsibility of AWS, according to the AWS shared responsibility model? 
+A. Encryption of application data 
+B. Authentication of application users 
+C. Protection of physical network infrastructure  
+D. Configuration of firewalls 
+Correct Answer: C  
+Question #286 
+Which options are AWS Cloud Adoption Framework (AWS CAF) cloud transformation journey 
+recommendations? (Choose two.) 
+A. Envision phase  
+B. Align phase  
+C. Assess phase 
+D. Mobilize phase 
+E. Migrate and modernize phase 
+Correct Answer: AB  
+Question #287 
+A company wants to generate a list of IAM users. The company also wants to view the status of various 
+credentials that are associated with the users, such as password, access keys, and multi-factor authentication 
+(MFA) devices. 
+Which AWS service or feature will meet these requirements? 
+A. IAM credential report  
+B. AWS IAM Identity Center (AWS Single Sign-On) 
+C. AWS Identity and Access Management Access Analyzer 
+D. AWS Cost and Usage Report 
+Correct Answer: A  
+Question #288 
+A company is designing its AWS workloads so that components can be updated regularly and so that changes 
+can be made in small, reversible increments. 
+Which pillar of the AWS Well-Architected Framework does this design support? 
+A. Security 
+B. Performance efficiency 
+C. Operational excellence  
+D. Reliability 
+Correct Answer: C  
+Question #289 
+A company wants to track tags, buckets, and prefixes for its Amazon S3 objects. 
+Which S3 feature will meet this requirement? 
+A. S3 Inventory report  
+B. S3 Lifecycle 
+C. S3 Versioning 
+D. S3 ACLs 
+Correct Answer: A  
+Question #290 
+A company wants to allow users to authenticate and authorize multiple AWS accounts by using a single set of 
+credentials. 
+Which AWS service or resource will meet this requirement? 
+A. AWS Organizations 
+B. IAM user 
+C. AWS IAM Identity Center (AWS Single Sign-On)  
+D. AWS Control Tower 
+Correct Answer: C  
+Question #291 
+A company created an Amazon EC2 instance. The company wants to control the incoming and outgoing 
+network traffic at the instance level. 
+Which AWS resource or service will meet this requirement? 
+A. AWS Shield 
+B. Security groups  
+C. Network Access Analyzer 
+D. VPC endpoints 
+Correct Answer: B  
+Question #292 
+A company wants to use the AWS Cloud to deploy an application globally. 
+Which architecture deployment model should the company use to meet this requirement? 
+A. Multi-Region  
+B. Single-Region 
+C. Multi-AZ 
+D. Single-AZ 
+Correct Answer: A  
+Question #293 
+A company wants a web application to interact with various AWS services. 
+Which AWS service or resource will meet this requirement? 
+A. AWS CloudShell 
+B. AWS Marketplace 
+C. AWS Management Console  
+D. AWS CLI 
+Correct Answer: C  
+Question #294 
+A company is migrating its applications from on-premises to the AWS Cloud. The company wants to ensure 
+that the applications are assigned only the minimum permissions that are needed to perform all operations. 
+Which AWS service will meet these requirements? 
+A. AWS Identity and Access Management (IAM)  
+B. Amazon CloudWatch 
+C. Amazon Macie 
+D. Amazon GuardDuty 
+Correct Answer: A  
+Question #295 
+Which options are AWS Cloud Adoption Framework (AWS CAF) governance perspective capabilities? (Choose 
+two.) 
+A. Identity and access management 
+B. Cloud financial management  
+C. Application portfolio management  
+D. Innovation management 
+E. Product management 
+Correct Answer: BC  
+Question #296 
+Which AWS service provides a single location to track the progress of application migrations? 
+A. AWS Application Discovery Service 
+B. AWS Application Migration Service 
+C. AWS Service Catalog 
+D. AWS Migration Hub  
+Correct Answer: D  
+Question #297 
+A company launched an Amazon EC2 instance with the latest Amazon Linux 2 Amazon Machine Image (AMI). 
+Which actions can a system administrator take to connect to the EC2 instance? (Choose two.) 
+A. Use Amazon EC2 Instance Connect.  
+B. Use a Remote Desktop Protocol (RDP) connection. 
+C. Use AWS Batch. 
+D. Use AWS Systems Manager Session Manager.  
+E. Use Amazon Connect. 
+Correct Answer: AD  
+Question #298 
+Which architecture concept describes the ability to deploy resources on demand and release resources when 
+they are no longer needed? 
+A. High availability 
+B. Decoupled architecture 
+C. Resilience 
+D. Elasticity  
+Correct Answer: D  
+Question #299 
+Which task requires a user to sign in as the AWS account root user? 
+A. The deletion of IAM users 
+B. The deletion of an AWS account  
+C. The creation of an organization in AWS Organizations 
+D. The deletion of Amazon EC2 instances 
+Correct Answer: B  
+Question #300 
+What does the Amazon S3 Intelligent-Tiering storage class offer? 
+A. Payment flexibility by reserving storage capacity 
+B. Long-term retention of data by copying the data to an encrypted Amazon Elastic Block Store (Amazon EBS) 
+volume 
+C. Automatic cost savings by moving objects between tiers based on access pattern changes  
+D. Secure, durable, and lowest cost storage for data archival 
+Correct Answer: C  
+Question #301 
+A company needs Amazon EC2 instances for a workload that can tolerate interruptions. 
+Which EC2 instance purchasing option meets this requirement with the LARGEST discount compared to On
+Demand prices? 
+A. Spot Instances  
+B. Convertible Reserved Instances 
+C. Standard Reserved Instances 
+D. Dedicated Hosts 
+Correct Answer: A  
+Question #302 
+A company is planning to migrate to the AWS Cloud. The company wants to identify measurable business 
+outcomes that will explain the value of the company's decision to migrate. 
+Which phase of the cloud transformation journey includes these activities? 
+A. Envision  
+B. Align 
+C. Scale 
+D. Launch 
+Correct Answer: A  
+Question #303 
+Which AWS service or component allows inbound traffic from the internet to access a VPC? 
+A. Internet gateway  
+B. NAT gateway 
+C. AWS WAF 
+D. VPC peering 
+Correct Answer: A  
+Question #304 
+Which AWS service can companies use to create infrastructure from code? 
+A. Amazon Elastic Kubernetes Service (Amazon EKS) 
+B. AWS Outposts 
+C. AWS CodePipeline 
+D. AWS CloudFormation  
+Correct Answer: D  
+Question #305 
+Which guideline is a well-architected design principle for building cloud applications? 
+A. Keep static data closer to compute resources. 
+B. Provision resources for peak capacity. 
+C. Design for automated recovery from failure.  
+D. Use tightly coupled components. 
+Correct Answer: C  
+Question #306 
+A company needs to move 75 petabytes of data from its on-premises data centers to AWS. 
+Which AWS service should the company use to meet these requirements MOST cost-effectively? 
+A. AWS Snowball Edge Storage Optimized 
+B. AWS Snowmobile  
+C. AWS Direct Connect 
+D. AWS Storage Gateway 
+Correct Answer: B  
+Question #307 
+Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.) 
+A. Resource scalability 
+B. Performance efficiency  
+C. System elasticity 
+D. Agile development 
+E. Operational excellence  
+Correct Answer: BE  
+Question #308 
+A company needs to connect its on-premises data center to the AWS Cloud. The company needs a dedicated, 
+low-latency connection with consistent network performance. 
+Which AWS service will meet these requirements? 
+A. AWS Global Accelerator 
+B. Amazon CloudFront 
+C. AWS Direct Connect  
+D. AWS Managed VPN 
+Correct Answer: C  
+Question #309 
+Which design principles should a company apply to AWS Cloud workloads to maximize sustainability and 
+minimize environmental impact? (Choose two.) 
+A. Maximize utilization of Amazon EC2 instances.  
+B. Minimize utilization of Amazon EC2 instances. 
+C. Minimize usage of managed services. 
+D. Force frequent application reinstallations by users. 
+E. Reduce the need for users to reinstall applications.  
+Correct Answer: AE  
+Question #310 
+In which ways does the AWS Cloud offer lower total cost of ownership (TCO) of computing resources than on
+premises data centers? (Choose two.) 
+A. AWS replaces upfront capital expenditures with pay-as-you-go costs.  
+B. AWS is designed for high availability, which eliminates user downtime. 
+C. AWS eliminates the need for on-premises IT staff. 
+D. AWS uses economies of scale to continually reduce prices.  
+E. AWS offers a single pricing model for Amazon EC2 instances. 
+Correct Answer: AD  
+Question #311 
+A company wants to deploy some of its resources in the AWS Cloud. To meet regulatory requirements, the 
+data must remain local and on premises. There must be low latency between AWS and the company 
+resources. 
+Which AWS service or feature can be used to meet these requirements? 
+A. AWS Local Zones 
+B. Availability Zones 
+C. AWS Outposts  
+D. AWS Wavelength Zones 
+Correct Answer: C  
+Question #312 
+Which of the following AWS services are serverless? (Choose two.) 
+A. AWS Outposts 
+B. Amazon EC2 
+C. Amazon Elastic Kubernetes Service (Amazon EKS) 
+D. AWS Fargate  
+E. AWS Lambda  
+Correct Answer: DE  
+Question #313 
+When a user wants to utilize their existing per-socket, per-core, or per-virtual machine software licenses for a 
+Microsoft Windows server running on AWS, which Amazon EC2 instance type is required? 
+A. Spot Instances 
+B. Dedicated Instances 
+C. Dedicated Hosts  
+D. Reserved Instances 
+Correct Answer: C  
+Question #314 
+A solutions architect needs to maintain a fleet of Amazon EC2 instances so that any impaired instances are 
+replaced with new ones. 
+Which AWS service should the solutions architect use? 
+A. Amazon Elastic Container Service (Amazon ECS) 
+B. Amazon GuardDuty 
+C. AWS Shield 
+D. AWS Auto Scaling  
+Correct Answer: D  
+Question #315 
+Which AWS service provides on-premises applications with low-latency access to data that is stored in the 
+AWS Cloud? 
+A. Amazon CloudFront 
+B. AWS Storage Gateway  
+C. AWS Backup 
+D. AWS DataSync 
+Correct Answer: B  
+Question #316 
+What does Amazon CloudFront provide? 
+A. Automatic scaling for all resources to power an application from a single unified interface 
+B. Secure delivery of data, videos, applications, and APIs to users globally with low latency  
+C. Ability to directly manage traffic globally through a variety of routing types, including latency-based 
+routing, geo DNS, geoproximity, and weighted round robin 
+D. Automatic distribution of incoming application traffic across multiple targets, such as Amazon EC2 
+instances, containers, IP addresses, and AWS Lambda functions 
+Correct Answer: B  
+Question #317 
+Which AWS service supports the deployment and management of applications in the AWS Cloud? 
+A. Amazon CodeGuru 
+B. AWS Fargate 
+C. AWS CodeCommit 
+D. AWS Elastic Beanstalk  
+Correct Answer: D  
+Question #318 
+A company wants to integrate natural language processing (NLP) into business intelligence (BI) dashboards. 
+The company wants to ask questions and receive answers with relevant visualizations. 
+Which AWS service or tool will meet these requirements? 
+A. Amazon Macie 
+B. Amazon Rekognition 
+C. Amazon QuickSight Q  
+D. Amazon Lex 
+Correct Answer: C  
+Question #319 
+Which Amazon S3 feature or storage class uses the AWS backbone network and edge locations to reduce 
+latencies from the end user to Amazon S3? 
+A. S3 Cross-Region Replication 
+B. S3 Transfer Acceleration  
+C. S3 Event Notifications 
+D. S3 Standard-Infrequent Access (S3 Standard-IA) 
+Correct Answer: B  
+Question #320 
+Which AWS service provides the ability to host a NoSQL database in the AWS Cloud? 
+A. Amazon Aurora 
+B. Amazon DynamoDB  
+C. Amazon RDS 
+D. Amazon Redshift 
+Correct Answer: B  
+Question #321 
+Which AWS service is a relational database compatible with MySQL and PostgreSQL? 
+A. Amazon Redshift 
+B. Amazon DynamoDB 
+C. Amazon Aurora  
+D. Amazon Neptune 
+Correct Answer: C  
+Question #322 
+Which architecture design principle describes the need to isolate failures between dependent components in 
+the AWS Cloud? 
+A. Use a monolithic design. 
+B. Design for automation. 
+C. Design for single points of failure. 
+D. Loosely couple components.  
+Correct Answer: D  
+Question #323 
+Which benefit of cloud computing gives a company the ability to deploy applications to users all over the 
+world through a network of AWS Regions, Availability Zones, and edge locations? 
+A. Economy of scale 
+B. Global reach  
+C. Agility 
+D. High availability 
+Correct Answer: B  
+Question #324 
+Which AWS service makes it easier to monitor and troubleshoot application logs and cloud resources? 
+A. Amazon EC2 
+B. AWS Identity and Access Management (IAM) 
+C. Amazon CloudWatch  
+D. AWS CloudTrail 
+Correct Answer: C  
+Question #325 
+Which AWS service uses AWS Compute Optimizer to provide sizing recommendations based on workload 
+metrics? 
+A. Amazon EC2  
+B. Amazon RDS 
+C. Amazon Lightsail 
+D. AWS Step Functions 
+Correct Answer: A  
+Question #326 
+Which AWS service will help a company plan a migration to AWS by collecting the configuration, usage, and 
+behavior data of on-premises data centers? 
+A. AWS Resource Groups 
+B. AWS Application Discovery Service  
+C. AWS Service Catalog 
+D. AWS Systems Manager 
+Correct Answer: B  
+Question #327 
+Which AWS service uses a combination of publishers and subscribers? 
+A. AWS Lambda 
+B. Amazon Simple Notification Service (Amazon SNS)  
+C. Amazon CloudWatch 
+D. AWS CloudFormation 
+Correct Answer: B  
+Question #328 
+A company is in the early stages of planning a migration to AWS. The company wants to obtain the monthly 
+predicted total AWS cost of ownership for future Amazon EC2 instances and associated storage. 
+Which AWS service or tool should the company use to meet these requirements? 
+A. AWS Pricing Calculator  
+B. AWS Compute Optimizer 
+C. AWS Trusted Advisor 
+D. AWS Application Migration Service 
+Correct Answer: A  
+Question #329 
+Which AWS service or tool will monitor AWS resources and applications in real time? 
+A. AWS Trusted Advisor 
+B. Amazon CloudWatch  
+C. AWS CloudTrail 
+D. AWS Cost Explorer 
+Correct Answer: B  
+Question #330 
+Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the business perspective? 
+A. Program and project management 
+B. Data science  
+C. Observability 
+D. Change and release management 
+Correct Answer: B  
+Question #331 
+Which AWS resource can help a company reduce its costs in exchange for a usage commitment when using 
+Amazon EC2 instances? 
+A. Compute Savings Plans  
+B. Auto Scaling group 
+C. On-Demand Instance 
+D. EC2 instance store 
+Correct Answer: A  
+Question #332 
+Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes a capability for well-designed 
+data and analytics architecture? 
+A. Security 
+B. Governance 
+C. Operations 
+D. Platform  
+Correct Answer: D  
+Question #333 
+Which options are AWS Cloud Adoption Framework (AWS CAF) people perspective capabilities? (Choose 
+two.) 
+A. Organizational alignment  
+B. Portfolio management 
+C. Organization design  
+D. Risk management 
+E. Modern application development 
+Correct Answer: AC  
+Question #334 
+A company needs a bridge between technology and business to help evolve to a culture of continuous 
+growth and learning. 
+Which perspective in the AWS Cloud Adoption Framework (AWS CAF) serves as this bridge? 
+A. People  
+B. Governance 
+C. Operations 
+D. Security 
+Correct Answer: A  
+Question #335 
+Which option is a responsibility of AWS under the AWS shared responsibility model? 
+A. Application data security 
+B. Patch management for applications that run on Amazon EC2 instances 
+C. Patch management of the underlying infrastructure for managed services  
+D. Application identity and access management 
+Correct Answer: C  
+Question #336 
+Which AWS service or resource can identify and provide reports on IAM resources in one AWS account that is 
+shared with another AWS account? 
+A. IAM credential report 
+B. AWS IAM Identity Center (AWS Single Sign-On) 
+C. AWS Identity and Access Management Access Analyzer  
+D. Amazon Cognito user pool 
+Correct Answer: C  
+Question #337 
+Which AWS Well-Architected Framework pillar focuses on structured and streamlined allocation of 
+computing resources? 
+A. Reliability 
+B. Operational excellence 
+C. Performance efficiency  
+D. Sustainability 
+Correct Answer: C  
+Question #338 
+Which AWS Cloud Adoption Framework (AWS CAF) capabilities belong to the governance perspective? 
+(Choose two.) 
+A. Program and project management  
+B. Product management 
+C. Portfolio management 
+D. Risk management  
+E. Event management 
+Correct Answer: AD  
+Question #339 
+A company wants to use AWS Managed Services (AMS) for operational support and wants to understand the 
+scope of AMS. 
+Which AMS feature will meet these requirements? 
+A. Landing zone and network management  
+B. Customer application development 
+C. DevSecOps pipeline configuration 
+D. Application log monitoring 
+Correct Answer: A  
+Question #340 
+A company wants to migrate its on-premises NoSQL workload to Amazon DynamoDB. 
+Which AWS service will meet this requirement? 
+A. AWS Migration Hub 
+B. AWS Database Migration Service (AWS DMS)  
+C. Migration Evaluator 
+D. AWS Application Migration Service 
+Correct Answer: B  
+Question #341 
+A company is in the process of finding correct Amazon EC2 instance types and sizes to meet its performance 
+and capacity requirements. The company wants to find the lowest possible cost. 
+Which option accurately characterizes the company's actions? 
+A. Auto Scaling 
+B. Storage tiering 
+C. Rightsizing  
+D. Instance scheduling 
+Correct Answer: C  
+Question #342 
+A company wants to manage sign-in security for workforce users. The company needs to create workforce 
+users and centrally manage their access across all the company's AWS accounts and applications. 
+Which AWS service will meet these requirements? 
+A. AWS Audit Manager 
+B. Amazon Cognito 
+C. AWS Security Hub 
+D. AWS IAM Identity Center (AWS Single Sign-On)  
+Correct Answer: D  
+Question #343 
+A company wants a report that lists the status of multi-factor authentication (MFA) devices that all users in 
+the company's AWS account use. Which AWS feature or service will meet this requirement? 
+A. AWS Cost and Usage Reports 
+B. IAM credential reports  
+C. Detailed Billing Reports - 
+D. AWS Cost Explorer reports 
+Correct Answer: B  
+Question #344 
+A company wants to use machine learning capabilities to analyze log data from its Amazon EC2 instances and 
+efficiently conduct security investigations. 
+Which AWS service will meet these requirements? 
+A. Amazon Inspector 
+B. Amazon QuickSight 
+C. Amazon Detective - 
+D. Amazon GuardDuty  
+Correct Answer: C  
+Question #345 
+A company is launching a mobile app in the AWS Cloud. The company wants the app's users to sign in 
+through social media identity providers (IdPs). 
+Which AWS service will meet this requirement? 
+A. AWS Lambda 
+B. Amazon Cognito  
+C. AWS Secrets Manager 
+D. Amazon CloudFront 
+Correct Answer: B  
+Question #346 
+Which complimentary AWS service or tool creates data-driven business cases for cloud planning? 
+A. Migration Evaluator  
+B. AWS Billing Conductor 
+C. AWS Billing Console 
+D. Amazon Forecast 
+Correct Answer: A  
+Question #347 
+Which cloud concept is demonstrated by using AWS Cost Explorer? 
+A. Rightsizing  
+B. Reliability 
+C. Resilience 
+D. Modernization 
+Correct Answer: A  
+Question #348 
+A company wants to deploy a non-containerized Java-based web application on AWS. The company wants to 
+use a managed service to quickly deploy the application. The company wants the service to automatically 
+provision capacity, load balance, scale, and monitor application health. 
+Which AWS service will meet these requirements? 
+A. Amazon Elastic Container Service (Amazon ECS) 
+B. AWS Lambda 
+C. Amazon Elastic Kubernetes Service (Amazon EKS) 
+D. AWS Elastic Beanstalk  
+Correct Answer: D  
+Question #349 
+Which AWS service or tool gives users the ability to connect with AWS and deploy resources 
+programmatically? 
+A. Amazon QuickSight 
+B. AWS PrivateLink 
+C. AWS Direct Connect 
+D. AWS SDKs  
+Correct Answer: D  
+Question #350 
+A company has deployed a web application to Amazon EC2 instances. The EC2 instances have low usage. 
+Which AWS service or feature should the company use to rightsize the EC2 instances? 
+A. AWS Config 
+B. AWS Cost Anomaly Detection 
+C. AWS Budgets 
+D. AWS Compute Optimizer  
+Correct Answer: D 
+Question #351 
+A company wants to define a central data protection policy that works across AWS services for compute, 
+storage, and database resources. 
+Which AWS service will meet this requirement? 
+A. AWS Batch 
+B. AWS Elastic Disaster Recovery 
+C. AWS Backup  
+D. Amazon FSx 
+Correct Answer: C  
+Question #352 
+A company needs to categorize and track AWS usage cost based on business categories. 
+Which AWS service or feature should the company use to meet these requirements? 
+A. Cost allocation tags  
+B. AWS Organizations 
+C. AWS Security Hub 
+D. AWS Cost and Usage Report 
+Correct Answer: A  
+Question #353 
+Which AWS service can migrate data between AWS storage services? 
+A. AWS DataSync  
+B. AWS Direct Connect 
+C. AWS Lake Formation 
+D. Amazon S3 
+Correct Answer: A  
+Question #354 
+Which statements represent the cost-effectiveness of the AWS Cloud? (Choose two.) 
+A. Users can trade fixed expenses for variable expenses.  
+B. Users can deploy all over the world in minutes. 
+C. AWS offers increased speed and agility. 
+D. AWS is responsible for patching the infrastructure. 
+E. Users benefit from economies of scale.  
+Correct Answer: AE  
+Question #355 
+A company wants to design its cloud architecture so that it can support development innovations, and 
+continuously improve processes and procedures. 
+This is an example of which pillar of the AWS Well-Architected Framework? 
+A. Security 
+B. Performance efficiency 
+C. Operational excellence  
+D. Reliability 
+Correct Answer: C  
+Question #356 
+A company needs to consolidate the billing for multiple AWS accounts. The company needs to use one 
+account to pay on behalf of all the other accounts. 
+Which AWS service or tool should the company use to meet this requirement? 
+A. AWS Trusted Advisor 
+B. AWS Organizations  
+C. AWS Budgets 
+D. AWS Service Catalog 
+Correct Answer: B  
+Question #357 
+A company is moving some of its on-premises IT services to the AWS Cloud. The finance department 
+wants to see the entire bill so it can forecast spending limits. 
+Which AWS service can the company use to set spending limits and receive notifications if those limits are 
+exceeded? 
+A. AWS Cost and Usage Reports 
+B. AWS Budgets  
+C. AWS Organizations consolidated billing 
+D. Cost Explorer 
+Correct Answer: B  
+Question #358 
+Which AWS Support plans provide access to an AWS technical account manager (TAM)? (Choose two.) 
+A. AWS Basic Support 
+B. AWS Developer Support 
+C. AWS Business Support 
+D. AWS Enterprise On-Ramp Support  
+E. AWS Enterprise Support  
+Correct Answer: DE  
+Question #359 
+Where can users find examples of AWS Cloud solution designs? 
+A. AWS Marketplace 
+B. AWS Service Catalog 
+C. AWS Architecture Center  
+D. AWS Trusted Advisor 
+Correct Answer: C  
+Question #360 
+Which task is the responsibility of a company that is using Amazon RDS? 
+A. Provision the underlying infrastructure. 
+B. Create IAM policies to control administrative access to the service.  
+C. Install the cables to connect the hardware for compute and storage. 
+D. Install and patch the RDS operating system. 
+Correct Answer: B  
+Question #361 
+Which of the following is an advantage that the AWS Cloud provides to users? 
+A. Users eliminate the need to guess about infrastructure capacity requirements.  
+B. Users decrease their variable costs by maintaining sole ownership of IT hardware. 
+C. Users maintain control of underlying IT infrastructure hardware. 
+D. Users maintain control of operating systems for managed services. 
+Correct Answer: A  
+Question #362 
+Which feature of Amazon RDS provides the ability to automatically create a primary database instance 
+and to synchronously replicate data to an instance in another Availability Zone? 
+A. Read replicas 
+B. Blue/green deployment 
+C. Multi-AZ deployment  
+D. Reserved Instances 
+Correct Answer: C  
+Question #363 
+A company needs to check for IAM access keys that have not been rotated recently. 
+Which AWS service should the company use to meet this requirement? 
+A. AWS WAF 
+B. AWS Shield 
+C. Amazon Cognito 
+D. AWS Trusted Advisor  
+Correct Answer: D  
+Question #364 
+A company runs many Amazon EC2 instances in its VPC. The company wants to use a native AWS security 
+resource to control network traffic between certain EC2 instances. 
+Which AWS service or feature will meet this requirement? 
+A. Network ACLs 
+B. AWS WAF 
+C. Amazon GuardDuty 
+D. Security groups  
+Correct Answer: D  
+Question #365 
+Which of the following can be components of a VPC in the AWS Cloud? (Choose two.) 
+A. Amazon API Gateway 
+B. Amazon S3 buckets and objects 
+C. AWS Storage Gateway 
+D. Internet gateway  
+E. Subnet  
+Correct Answer: DE  
+Question #366 
+A company is building a new application on AWS. The company needs the application to remain available 
+if an individual application component fails. 
+Which design principle should the company use to meet this requirement? 
+A. Disposable resources 
+B. Automation 
+C. Rightsizing 
+D. Loose coupling  
+Correct Answer: D  
+Question #367 
+A company wants to use a managed service to identify and protect sensitive data that is stored in Amazon 
+S3. 
+Which AWS service will meet these requirements? 
+A. AWS IAM Access Analyzer 
+B. Amazon GuardDuty 
+C. Amazon Inspector 
+D. Amazon Macie  
+Correct Answer: D  
+Question #368 
+Which AWS service or feature can a user configure to limit network access at the subnet level? 
+A. AWS Shield 
+B. AWS WAF 
+C. Network ACL  
+D. Security group 
+Correct Answer: C  
+Question #369 
+Which AWS service can a company use to manage encryption keys in the cloud? 
+A. AWS License Manager 
+B. AWS Certificate Manager (ACM) 
+C. AWS CloudHSM  
+D. AWS Directory Service 
+Correct Answer: C  
+Question #370 
+A company wants to enhance security by launching a third-party ISP intrusion detection system from its 
+AWS account. 
+Which AWS service or resource should the company use to meet this requirement? 
+A. AWS Security Hub 
+B. AWS Marketplace 
+C. AWS Quick Starts 
+D. AWS Security Center 
+Correct Answer: B  
+Question #371 
+How does the AWS Cloud help companies build agility into their processes and cloud infrastructure? 
+A. Companies can avoid provisioning too much capacity when they do not know how much capacity is 
+required. 
+B. Companies can expand into new geographic regions. 
+C. Companies can access a range of technologies to experiment and innovate quickly.  
+D. Companies can pay for IT resources only when they use the resources. 
+Correct Answer: C  
+Question #372 
+Which AWS service or tool gives a company the ability to release application changes in an automated 
+way? 
+A. Amazon AppFlow 
+B. AWS CodeDeploy  
+C. AWS PrivateLink 
+D. Amazon EKS Distro 
+Correct Answer: B  
+Question #373 
+Which AWS Cloud Adoption Framework (AWS CAF) perspective focuses on managing identities and 
+permissions at scale? 
+A. Operations 
+B. Platform 
+C. Governance 
+D. Security  
+Correct Answer: D  
+Question #374 
+Which AWS service or feature allows users to securely store encrypted credentials and retrieve these 
+credentials when required? 
+A. AWS Encryption SDK 
+B. AWS Security Hub 
+C. AWS Secrets Manager  
+D. AWS Artifact 
+Correct Answer: C  
+Question #375 
+Which pillar of the AWS Well-Architected Framework aligns with the ability to make frequent, small, and 
+reversible changes to AWS Cloud architecture? 
+A. Security 
+B. Cost optimization 
+C. Operational excellence 
+D. Performance efficiency 
+Correct Answer: C  
+Question #376 
+Which AWS service or resource can a company use to deploy AWS WAF rules? 
+A. Amazon EC2 
+B. Application Load Balancer  
+C. AWS Trusted Advisor 
+D. Network Load Balancer 
+Correct Answer: B  
+Question #377 
+A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website 
+reaches a global audience and provides minimum latency to users. 
+Which AWS service should the company use to meet these requirements? 
+A. Amazon Route 53 
+B. Amazon CloudFront  
+C. Elastic Load Balancing 
+D. AWS Lambda 
+Correct Answer: B  
+Question #378 
+Which AWS design principle emphasizes the reduction of interdependencies between components of an 
+application? 
+A. Scalability 
+B. Loose coupling 
+C. Automation 
+D. Caching 
+Correct Answer: B  
+Question #379 
+A company wants to provide one of its employees with access to Amazon RDS. The company also wants to 
+limit the interaction to only the AWS CLI and AWS software development kits (SDKs). 
+Which combination of actions should the company take to meet these requirements while following the 
+principles of least privilege? (Choose two.) 
+A. Create an IAM user and provide AWS Management Console access only. 
+B. Create an IAM user and provide programmatic access only.  
+C. Create an IAM role and provide AWS Management Console access only. 
+D. Create an IAM policy with administrator access and attach it to the IAM user. 
+E. Create an IAM policy with Amazon RDS access and attach it to the IAM user.  
+Correct Answer: BE  
+Question #380 
+A company is running a reporting web server application on Amazon EC2 instances. The application runs 
+once every week and once again at the end of the month. The EC2 instances can be shut down when they 
+are not in use. 
+What is the MOST cost-effective billing model for this use case? 
+A. Standard Reserved Instances 
+B. Convertible Reserved Instances 
+C. On-Demand Capacity Reservations 
+D. On-Demand Instances 
+Correct Answer: D  
+Question #381 
+A company wants to discover, prepare, move, and integrate data from multiple sources for data analytics 
+and machine learning. 
+Which AWS serverless data integration service should the company use to meet these requirements? 
+A. AWS Glue  
+B. AWS Data Exchange 
+C. Amazon Athena 
+D. Amazon EMR 
+Correct Answer: A  
+Question #382 
+A company is moving its development and test environments to AWS to increase agility and reduce cost. 
+Because these are not production workloads and the servers are not fully utilized, occasional 
+unavailability is acceptable. 
+What is the MOST cost-effective Amazon EC2 pricing model that will meet these requirements? 
+A. Reserved Instances 
+B. On-Demand Instances 
+C. Spot Instances 
+D. Dedicated Hosts 
+Correct Answer: C  
+Question #383 
+A company deploys its application on Amazon EC2 instances. The application occasionally experiences 
+sudden increases in demand. The company wants to ensure that its application can respond to changes in 
+demand at the lowest possible cost. 
+Which AWS service or concept will meet these requirements? 
+A. AWS Auto Scaling 
+B. AWS Compute Optimizer 
+C. AWS Cost Explorer 
+D. AWS Well-Architected Framework 
+Correct Answer: A  
+Question #384 
+A company wants to organize its users so that the company can grant permissions to the users as a group. 
+Which AWS service or tool can the company use to meet this requirement? 
+A. Security groups 
+B. AWS Identity and Access Management (IAM) 
+C. Resource groups 
+D. AWS Security Hub 
+Correct Answer: B  
+Question #385 
+A company wants to build an application that uses AWS Lambda to run Python code. 
+Under the AWS shared responsibility model, which tasks will be the company’s responsibility? (Choose 
+two.) 
+A. Management of the underlying infrastructure. 
+B. Management of the operating system. 
+C. Writing the business logic code.  
+D. Installation of the computer language runtime. 
+E. Providing AWS Identity and Access Management (IAM) access to the Lambda service.  
+Correct Answer: CE  
+Question #386 
+A company needs to identify who accessed an AWS service and what action was performed for a given 
+t
+ ime period. 
+Which AWS service should the company use to meet this requirement? 
+A. Amazon CloudWatch 
+B. AWS CloudTrail 
+C. AWS Security Hub 
+D. Amazon Inspector 
+Correct Answer: B  
+Question #387 
+A company wants to use a centralized AWS service to enforce compliance with the organizational business 
+standards. The company wants to use an AWS service that can govern and control who can deploy, 
+manage, and decommission AWS resources. 
+Which AWS service will meet these requirements? 
+A. Amazon CloudWatch 
+B. AWS Service Catalog  
+C. Amazon GuardDuty 
+D. AWS Security Hub 
+Correct Answer: B  
+Question #388 
+What does "security of the cloud” refer to in the AWS shared responsibility model? 
+A. Availability of AWS services such as Amazon EC2 
+B. Security of the cloud infrastructure that runs all the AWS services  
+C. Implementation of password policies for IAM users 
+D. Security of customer environments by using AWS Network Firewall partners 
+Correct Answer: B  
+Question #389 
+A company has an application that produces unstructured data continuously. The company needs to store 
+the data so that the data is durable and easy to query. 
+Which AWS service can the company use to meet these requirements? 
+A. Amazon RDS 
+B. Amazon Aurora 
+C. Amazon QuickSight 
+D. Amazon DynamoDB  
+Correct Answer: D  
+Question #390 
+Which options are AWS Cloud Adoption Framework (AWS CAF) perspectives? (Choose two.) 
+A. Cloud fluency 
+B. Security  
+C. Change acceleration 
+D. Architecture 
+E. Business  
+Correct Answer: BE  
+Question #391 
+A company wants to migrate a company’s on-premises container infrastructure to the AWS Cloud. The 
+company wants to prevent unplanned administration and operation cost and adapt to a serverless 
+architecture. 
+Which AWS service will meet these requirements? 
+A. Amazon Connect 
+B. AWS Fargate  
+C. Amazon Lightsail 
+D. Amazon EC2 
+Correct Answer: B  
+Question #392 
+A company wants its Amazon EC2 instances to be in different locations but share the same geographic 
+area. The company also wants to use multiple power grids and independent networking connectivity for 
+the EC2 instances. 
+Which solution meets these requirements? 
+A. Use EC2 instances in multiple edge locations in the same AWS Region. 
+B. Use EC2 instances in multiple Availability Zones in the same AWS Region.  
+C. Use EC2 instances in multiple Amazon Connect locations in the same AWS Region. 
+D. Use EC2 instances in multiple AWS Artifact locations in the same AWS Region. 
+Correct Answer: B  
+Question #393 
+An ecommerce company has deployed a new web application on Amazon EC2 instances. The company 
+wants to distribute incoming HTTP traffic evenly across all running instances. 
+Which AWS service or resource will meet this requirement? 
+A. Amazon EC2 Auto Scaling 
+B. Application Load Balancer  
+C. Gateway Load Balancer 
+D. Network Load Balancer 
+Correct Answer: B  
+Question #394 
+Which AWS service or feature gives users the ability to connect VPCs and on-premises networks to a 
+central hub? 
+A. Virtual private gateway 
+B. AWS Transit Gateway  
+C. Internet gateway 
+D. Customer gateway 
+Correct Answer: B  
+Question #395 
+A company wants to run CPU-intensive workload across multiple Amazon EC2 instances. 
+Which EC2 instance type should the company use to meet this requirement? 
+A. General purpose instances 
+B. Compute optimized instances 
+C. Memory optimized instances 
+D. Storage optimized instances 
+Correct Answer: B  
+Question #396 
+A company is connecting multiple VPCs and on-premises networks. The company needs to use an AWS 
+service as a cloud router to simplify peering relationships. 
+Which AWS service can the company use to meet this requirement? 
+A. AWS Direct Connect 
+B. AWS Transit Gateway  
+C. Amazon Connect 
+D. Amazon Route 53 
+Correct Answer: B  
+Question #397 
+A company stores a large amount of data that auditors access only twice each year. 
+Which Amazon S3 storage class should the company use to store the data with the LOWEST cost? 
+A. Amazon S3 Outposts 
+B. Amazon S3 Glacier Instant Retrieval  
+C. Amazon S3 Standard 
+D. Amazon S3 Intelligent-Tiering 
+Correct Answer: B  
+Question #398 
+Which action should a company take to improve security in its AWS account? 
+A. Require multi-factor authentication (MFA) for privileged users. 
+B. Remove the root user account. 
+C. Create an access key for the AWS account root user. 
+D. Create an access key for each privileged user. 
+Correct Answer: A  
+Question #399 
+Which of the following are ways to improve security on AWS? (Choose two.) 
+A. Using AWS Artifact 
+B. Granting the broadest permissions to all IAM roles 
+C. Running application code with AWS Cloud 
+D. Enabling multi-factor authentication (MFA) with Amazon Cognito  
+E. Using AWS Trusted Advisor security checks  
+Correct Answer: DE  
+Question #400 
+Which AWS service can a company use to manage encryption keys in the cloud? 
+A. AWS License Manager 
+B. AWS Certificate Manager (ACM) 
+C. AWS CloudHSM  
+D. AWS Directory Service 
+Correct Answer: C 
+Question #401 
+A company wants to store its files in the AWS Cloud. Users need to be able to download these files directly using a 
+public URL. 
+Which AWS service or feature will meet this requirement? 
+A. Amazon Redshift 
+B. Amazon Elastic Block Store (Amazon EBS) 
+C. Amazon Elastic File System (Amazon EFS) 
+D. Amazon S3 
+Correct Answer: D  
+Question #402 
+A company is using AWS for all its IT infrastructure. The company's developers are allowed to deploy applications on 
+their own. The developers want to deploy their applications without having to provision the infrastructure themselves. 
+Which AWS service should the developers use to meet these requirements? 
+A. AWS CloudFormation 
+B. AWS CodeBuild 
+C. AWS Elastic Beanstalk  
+D. AWS CodeDeploy 
+Correct Answer: C  
+Question #403 
+A company wants to gain insights from its data and build interactive data visualization dashboards. 
+Which AWS service will meet these requirements? 
+A. Amazon SageMaker 
+B. Amazon Rekognition 
+C. Amazon QuickSight  
+D. Amazon Kinesis 
+Correct Answer: C  
+Question #404 
+A cloud engineer wants to store data in Amazon S3. The engineer will access some of the data yearly and some of the 
+data daily. 
+Which S3 storage class will meet these requirements MOST cost-effectively? 
+A. S3 Standard 
+B. S3 Glacier Deep Archive 
+C. S3 One Zone-Infrequent Access (S3 One Zone-IA) 
+D. S3 Intelligent-Tiering 
+Correct Answer: D  
+Question #405 
+Which of the following are economic benefits of using the AWS Cloud? (Choose two.) 
+A. Consumption-based pricing 
+B. Perpetual licenses 
+C. Economies of scale 
+D. AWS Enterprise Support at no additional cost 
+E. Bring-your-own-hardware model 
+Correct Answer: AC  
+Question #406 
+A user is moving a workload from a local data center to an architecture that is distributed between the local data center 
+and the AWS Cloud. 
+Which type of migration is this? 
+A. On-premises to cloud native 
+B. Hybrid to cloud native 
+C. On-premises to hybrid  
+D. Cloud native to hybrid 
+Correct Answer: C  
+Question #407 
+A company needs to store infrequently used data for data archives and long-term backups. 
+Which AWS service or storage class will meet these requirements MOST cost-effectively? 
+A. Amazon FSx for Lustre 
+B. Amazon Elastic Block Store (Amazon EBS) 
+C. Amazon Elastic File System (Amazon EFS) 
+D. Amazon S3 Glacier Flexible Retrieval 
+Correct Answer: D  
+Question #408 
+Which AWS service provides users with AWS issued reports, certifications, accreditations, and third-party attestations? 
+A. AWS Artifact  
+B. AWS Trusted Advisor 
+C. AWS Health Dashboard 
+D. AWS Config 
+Correct Answer: A  
+Question #409 
+A company needs to create and publish interactive business intelligence dashboards. The dashboards require insights 
+that are powered by machine learning. 
+Which AWS service or tool will meet these requirements? 
+A. AWS Glue Studio 
+B. Amazon QuickSight 
+C. Amazon Redshift 
+D. Amazon Athena 
+Correct Answer: B  
+Question #410 
+A company wants to use AWS. The company has stringent requirements about low-latency access to on-premises 
+systems and data residency. 
+Which AWS service should the company use to design a solution that meets these requirements? 
+A. AWS Wavelength 
+B. AWS Transit Gateway 
+C. AWS Ground Station 
+D. AWS Outposts 
+Correct Answer: D  
+Question #411 
+A company runs an on-premises contact center for customers. The company needs to migrate to a cloud-based solution 
+that can deliver artificial intelligence features to improve user experience. 
+Which AWS service will meet these requirements? 
+A. AWS Wavelength 
+B. AWS IAM Identity Center (AWS Single Sign-On) 
+C. AWS Direct Connect 
+D. Amazon Connect  
+Correct Answer: D  
+Question #412 
+A company needs the ability to acquire resources when the resources are needed. The company also needs the ability 
+to release the resources when the resources are no longer needed. 
+Which AWS concept represents the company's goals? 
+A. Scalability 
+B. Sustainability 
+C. Elasticity 
+D. Operational excellence 
+Correct Answer: C  
+Question #413 
+A company wants to use Amazon EC2 instances for a stable production workload that will run for 1 year. 
+Which instance purchasing option meets these requirements MOST cost-effectively? 
+A. Dedicated Hosts 
+B. Reserved Instances 
+C. On-Demand Instances 
+D. Spot Instances 
+Correct Answer: B  
+Question #414 
+A company wants to log in securely to Linux Amazon EC2 instances. 
+How can the company accomplish this goal? 
+A. Use SSH keys. 
+B. Use a VPN. 
+C. Use end-to-end encryption. 
+D. Use Amazon Route 53. 
+Correct Answer: A  
+Question #415 
+A company wants to use a serverless compute service for an application. 
+Which AWS service will meet this requirement? 
+A. AWS Lambda 
+B. AWS CloudFormation 
+C. AWS Elastic Beanstalk 
+D. Elastic Load Balancing 
+Correct Answer: A  
+Question #416 
+A company wants a solution that will automatically adjust the number of Amazon EC2 instances that are being used 
+based on the current load. 
+Which AWS offering will meet these requirements? 
+A. Dedicated Hosts 
+B. Placement groups 
+C. Auto Scaling groups 
+D. Reserved Instances 
+Correct Answer: C  
+Question #417 
+A company is building AWS architecture to deliver real-time data feeds from an on-premises data center into an 
+application that runs on AWS. The company needs a consistent network connection with minimal latency. 
+What should the company use to connect the application and the data center to meet these requirements? 
+A. AWS Direct Connect 
+B. Public internet 
+C. AWS VPN 
+D. Amazon Connect 
+Correct Answer: A  
+Question #418 
+A company plans to migrate its custom marketing application and order-processing application to AWS. The company 
+needs to deploy the applications on different types of instances with various configurations of CPU, memory, storage, 
+and networking capacity. 
+Which AWS service should the company use to meet these requirements? 
+A. AWS Lambda 
+B. Amazon Cognito 
+C. Amazon Athena 
+D. Amazon EC2  
+Correct Answer: D  
+Question #419 
+A company wants to monitor and block malicious HTTP and HTTPS requests that its Amazon CloudFront distributions 
+receive. 
+Which AWS service should the company use to meet these requirements? 
+A. Amazon GuardDuty 
+B. Amazon Inspector 
+C. AWS WAF  
+D. Amazon Detective 
+Correct Answer: C  
+Question #420 
+Which AWS services can host PostgreSQL databases? (Choose two.) 
+A. Amazon S3 
+B. Amazon Aurora 
+C. Amazon EC2 
+D. Amazon OpenSearch Service 
+E. Amazon Elastic File System (Amazon EFS) 
+Correct Answer: BC  
+Question #421 
+Which AWS service can generate information that can be used by external auditors? 
+A. Amazon Cognito 
+B. Amazon FSx 
+C. AWS Config 
+D. Amazon Inspector 
+Correct Answer: C  
+Question #422 
+Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented? 
+A. AWS VPN 
+B. Amazon Connect 
+C. AWS Direct Connect 
+D. Internet gateway 
+Correct Answer: C  
+Question #423 
+A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural 
+disaster in a particular geographic area. 
+Which solution achieves this goal? 
+A. Use EC2 instances in multiple AWS Regions. 
+B. Use EC2 instances in multiple edge locations. 
+C. Use EC2 instances in the same Availability Zone but in different AWS Regions. 
+D. Use Amazon CloudFront with the EC2 instances configured as the source. 
+Correct Answer: A  
+Question #424 
+Which AWS service allows for file sharing between multiple Amazon EC2 instances? 
+A. AWS Direct Connect 
+B. AWS Snowball Edge 
+C. AWS Backup 
+D. Amazon Elastic File System (Amazon EFS) 
+Correct Answer: D  
+Question #425 
+A company needs to manage multiple logins across AWS accounts within the same organization in AWS Organizations. 
+Which AWS service should the company use to meet this requirement? 
+A. Amazon VPC 
+B. Amazon GuardDuty 
+C. Amazon Cognito 
+D. AWS IAM Identity Center 
+Correct Answer: D  
+Question #426 
+A company uses Amazon WorkSpaces. 
+Which task is the responsibility of AWS, according to the AWS shared responsibility model? 
+A. Set up multi-factor authentication (MFA) for each WorkSpaces user account. 
+B. Ensure the environmental safety and security of the AWS infrastructure that hosts WorkSpaces. 
+C. Provide security for WorkSpaces user accounts through AWS Identity and Access Management (IAM). 
+D. Configure AWS CloudTrail to log API calls and user activity. 
+Correct Answer: B  
+Question #427 
+A company is migrating its public website to AWS. The company wants to host the domain name for the website on 
+AWS. 
+Which AWS service should the company use to meet this requirement? 
+A. AWS Lambda 
+B. Amazon Route 53  
+C. Amazon CloudFront 
+D. AWS Direct Connect 
+Correct Answer: B  
+Question #428 
+A company uses a third-party identity provider (IdP). The company wants to provide its employees with access to AWS 
+accounts and services without requiring another set of login credentials. 
+Which AWS service will meet this requirement? 
+A. AWS Directory Service 
+B. Amazon Cognito 
+C. AWS IAM Identity Center  
+D. AWS Resource Access Manager (AWS RAM) 
+Correct Answer: C  
+Question #429 
+Which combination of AWS services can be used to move a commercial relational database to an Amazon-managed 
+open-source database? (Choose two.) 
+A. AWS Database Migration Service (AWS DMS) 
+B. AWS software development kits (SDKs) 
+C. AWS Schema Conversion Tool 
+D. AWS Systems Manager 
+E. Amazon EMR 
+Correct Answer: AC  
+Question #430 
+Which AWS service gives users on-demand, self-service access to AWS compliance control reports? 
+A. AWS Config 
+B. Amazon GuardDuty 
+C. AWS Trusted Advisor 
+D. AWS Artifact 
+Correct Answer: D  
+Question #431 
+A company runs a legacy workload in an on-premises data center. The company wants to migrate the workload to AWS. 
+The company does not want to make any changes to the workload. 
+Which migration strategy should the company use? 
+A. Repurchase 
+B. Replatform 
+C. Rehost  
+D. Refactor 
+Correct Answer: C  
+Question #432 
+A company is planning to migrate applications to the AWS Cloud. During a system audit, the company finds that its 
+content management system (CMS) application is incompatible with cloud environments. 
+Which migration strategies will help the company to migrate the CMS application with the LEAST effort? (Choose two.) 
+A. Retire 
+B. Rehost  
+C. Repurchase  
+D. Replatform 
+E. Refactor 
+Correct Answer: BC  
+Question #433 
+Which of the following are AWS best practice recommendations for the use of AWS Identity and Access Management 
+(IAM)? (Choose two.) 
+A. Use the AWS account root user for daily access. 
+B. Use access keys and secret access keys on Amazon EC2. 
+C. Rotate credentials on a regular basis. 
+D. Create a shared set of access keys for system administrators. 
+E. Configure multi-factor authentication (MFA). 
+Correct Answer: CE  
+Question #434 
+Which option is AWS responsible for under the AWS shared responsibility model? 
+A. Network and firewall configuration 
+B. Client-side data encryption 
+C. Management of user permissions 
+D. Hardware and infrastructure  
+Correct Answer: D  
+Question #435 
+A company wants to run a graph query that provides credit card users’ names, addresses, and transactions. The 
+company wants the graph to show if the names, addresses, and transactions indicates possible fraud. 
+Which AWS database service will meet these requirements? 
+A. Amazon DocumentDB (with MongoDB compatibility) 
+B. Amazon Timestream 
+C. Amazon DynamoDB 
+D. Amazon Neptune 
+Correct Answer: D  
+Question #436 
+Which AWS service provides machine learning capability to detect and analyze content in images and videos? 
+A. Amazon Connect 
+B. Amazon Lightsail 
+C. Amazon Personalize 
+D. Amazon Rekognition 
+Correct Answer: D  
+Question #437 
+A company wants its AWS usage to be more sustainable. The company wants to track, measure, review, and forecast 
+polluting emissions that result from its AWS applications. 
+Which AWS service or tool can the company use to meet these requirements? 
+A. AWS Health Dashboard 
+B. AWS customer carbon footprint tool  
+C. AWS Support Center 
+D. Amazon QuickSight 
+Correct Answer: B  
+Question #438 
+Which AWS service gives users the ability to deploy highly repeatable infrastructure configurations? 
+A. AWS CloudFormation 
+B. AWS CodeDeploy 
+C. AWS CodeBuild 
+D. AWS Systems Manager 
+Correct Answer: A  
+Question #439 
+A company needs to provide customer service by using voice calls and web chat features. 
+Which AWS service should the company use to meet these requirements? 
+A. Amazon Aurora 
+B. Amazon Connect 
+C. Amazon WorkSpaces 
+D. AWS Organizations 
+Correct Answer: B  
+Question #440 
+Which AWS service is designed to help users handle large amounts of data in a data warehouse environment? 
+A. Amazon RDS 
+B. Amazon DynamoDB 
+C. Amazon Redshift 
+D. Amazon Aurora 
+Correct Answer: C  
+Question #441 
+A company is building a web application using AWS. 
+Which AWS service will help prevent network layer DDoS attacks against the web application? 
+A. AWS WAF 
+B. AWS Firewall Manager 
+C. Amazon GuardDuty 
+D. AWS Shield 
+Correct Answer: D  
+Question #442 
+Which of the following are advantages of moving to the AWS Cloud? (Choose two.) 
+A. Users can implement all AWS services in seconds. 
+B. AWS assumes all responsibility for the security of infrastructure and applications. 
+C. Users experience increased speed and agility. 
+D. Users benefit from massive economies of scale. 
+E. Users can move hardware from their data center to the AWS Cloud. 
+Correct Answer: CD  
+Question #443 
+Which AWS compute service gives users the ability to securely and reliably run containers at scale? 
+A. Amazon Elastic Container Service (Amazon ECS) 
+B. Amazon Aurora 
+C. Amazon Athena 
+D. Amazon Polly 
+Correct Answer: A  
+Question #444 
+Which AWS tool or feature acts as a VPC firewall at the subnet level? 
+A. Security group 
+B. Network ACL  
+C. Traffic Mirroring 
+D. Internet gateway 
+Correct Answer: B  
+Question #445 
+A company runs an application on AWS that performs batch jobs. The application is fault-tolerant and can handle 
+interruptions. The company wants to optimize the cost to run the application. 
+Which AWS offering will meet these requirements? 
+A. Amazon Macie 
+B. Amazon Neptune 
+C. Amazon EC2 Spot Instances 
+D. Amazon EC2 On-Demand Instances 
+Correct Answer: C  
+Question #446 
+Which AWS service can be used to send alerts when a specific Amazon CloudWatch alarm is invoked? 
+A. AWS CloudTrail 
+B. Amazon Simple Notification Service (Amazon SNS) 
+C. Amazon Simple Queue Service (Amazon SQS) 
+D. Amazon EventBridge 
+Correct Answer: B  
+Question #447 
+A cloud practitioner wants to use a highly available and scalable DNS service for its AWS workload. 
+Which AWS service will meet this requirement? 
+A. Amazon Route 53 
+B. Amazon Lightsail 
+C. AWS Amplify Hosting 
+D. Amazon S3 
+Correct Answer: A  
+Question #448 
+According to the AWS shared responsibility model, which task is the customer's responsibility? 
+A. Maintaining the infrastructure needed to run AWS Lambda 
+B. Updating the operating system of Amazon DynamoDB instances 
+C. Maintaining Amazon S3 infrastructure 
+D. Updating the guest operating system on Amazon EC2 instances  
+Correct Answer: D  
+Question #449 
+A company is learning about its responsibilities that are related to the management of Amazon EC2 instances. 
+Which tasks for EC2 instances are the company’s responsibility, according to the AWS shared responsibility model? 
+(Choose two.) 
+A. Install and patch the machine hypervisor. 
+B. Patch the guest operating system. 
+C. Encrypt data at rest on associated storage. 
+D. Install the physical hardware and cabling. 
+E. Provide physical security for the EC2 instances. 
+Correct Answer: BC  
+Question #450 
+A company runs MySQL database workloads on self-managed servers in an on-premises data center. The company 
+wants to migrate the database workloads to an AWS managed service. 
+Which migration strategy should the company use? 
+A. Rehost 
+B. Repurchase 
+C. Refactor 
+D. Replatform  
+Correct Answer: D  

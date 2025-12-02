@@ -136,6 +136,16 @@ body{overflow:hidden}
 .btn.primary{background:linear-gradient(90deg,#a855f7,#ec4899);border-color:rgba(255,255,255,0.3)}
 .top-result{background:rgba(255,255,255,0.06);padding:8px 12px;border-radius:999px;font-weight:800}
 
+/* Jump control (small number input + button) */
+.jump-control{display:flex;align-items:center;gap:8px;margin-left:6px}
+.jump-input{width:72px;padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);color:#fff;font-weight:700;text-align:center}
+.jump-input::placeholder{color:rgba(255,255,255,0.6)}
+.jump-input:disabled{opacity:0.5}
+
+@media(max-width:480px){
+	.jump-input{width:56px;padding:6px 8px;font-size:13px}
+}
+
 /* Result screen controls */
 .controls{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px;justify-content:center}
 
